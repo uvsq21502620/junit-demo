@@ -1,7 +1,19 @@
 package fr.uvsq.demo;
 
 public class Fraction {
-    public static void main(String args[]) {
-        System.out.println("Hello");
+    private int numerator;
+    private int denominator;
+
+    public Fraction(int numerator, int denominator) {
+        this.numerator = numerator;
+        this.denominator = denominator;
+    }
+
+    public int getNumerator() {
+        return numerator;
+    }
+
+    public int getDenominator() {
+        return denominator;
     }
 }
